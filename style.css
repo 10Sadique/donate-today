@@ -9,6 +9,8 @@ body {
     background-color: #F6FBF4;
 }
 
+/* Header Section */
+
 .header {
     display: flex;
     align-items: center;
@@ -67,6 +69,8 @@ body {
     transform: translateY(-4px);
     box-shadow: 0 3px 15px #f6fbf44f;
 }
+
+/* Donate Section */
 
 .donate {
     display: flex;
@@ -156,4 +160,80 @@ body {
 
 .btn__white-bg:hover {
     box-shadow: 0 3px 15px #808292;
+}
+
+/* Plan Secton */
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.plan .plan__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    width: 80%;
+}
+
+.plan .plan__content h1 {
+    font-size: 2.75rem;
+    margin: 30px 0 20px;
+    font-weight: 900;
+}
+
+.plan .plan__content p {
+    color: #808292;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plan .plan__content .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card__content {
+    width: 33.33%;
+    height: 350px;
+    margin: 10px;
+    padding: 30px 20px;
+
+    border-radius: 8px;
+
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+
+#card__1 {
+    background-color: #ccf3ee77;
+}
+
+#card__2 {
+    background-color: #F9CEEE77;
+}
+
+#card__3 {
+    background-color: #C1F4C577;
+}
+
+#card__1 h2,
+#card__2 h2, 
+#card__3 h2 {
+    margin: 30px 0 20px;
 }
