@@ -296,3 +296,54 @@ body {
 .btn__email:hover {
     background-color: #61ac94;
 }
+
+/* Footer Section */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 40vh;
+
+    background-color: #191A19;
+}
+
+.footer .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.footer .footer__content h3 {
+    font-family: 'Pacifico', cursive;
+    color: #4B8673;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.footer .footer__content ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer .footer__content a {
+    color: #F6FBF4;
+    text-decoration: none;
+    margin: 0 20px 30px;
+    font-size: 1.1rem;
+    transition: all .3s;
+}
+
+.footer .footer__content a:hover {
+    color: #61ac94;
+}
+
+.footer .footer__content p {
+    color: #808292;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: 40px;
+    text-align: center;
+}
