@@ -7,7 +7,6 @@
 
 body {
     background-color: #F6FBF4;
-    color: #FAF3E3;
 }
 
 .header {
@@ -21,6 +20,7 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.76)), url(./images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FAF3E3;
 }
 
 .header .header__content {
@@ -55,14 +55,105 @@ body {
     font-weight: bold;
     font-size: 1rem;
 
+    color: #fff;
     background-color: #4B8673;
     padding: 15px 25px;
 
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all .3s;
 }
 
 .btn:hover {
     transform: translateY(-4px);
-    box-shadow: 0 3px 10px #f6fbf44f;
+    box-shadow: 0 3px 15px #f6fbf44f;
+}
+
+.donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.donate .donate__content {
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.donate .donate__content h1 {
+    font-size: 2.75rem;
+    margin: 30px 0 20px;
+    font-weight: 900;
+}
+
+.donate .donate__content p {
+    color: #808292;
+    font-size: 1.1rem;
+    line-height: 1.5;
+
+    margin-bottom: 30px;
+}
+
+.donate .donate__content ul {
+    list-style: none;
+    color: #808292;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.donate .donate__content li {
+    height: 120px;
+    width: 150px;
+    background-color: #bcc0dd1a;
+    margin: 10px;
+    border-radius: 6px;
+
+    font-size: 2rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.donate .donate__content .active {
+    color: #4B8673;
+    border: 3px solid #4B8673;
+    background-color: #4b867336;
+}
+
+.donate .donate__content input {
+    width: 100%;
+    border: none;
+    text-align: center;
+
+
+    font-size: 1.1rem;
+    color: #808292;
+    background-color: #F6FBF4;
+
+    border-bottom: 1px solid #88899291;
+    padding: 20px;
+
+    margin-bottom: 40px;
+    outline: none;
+}
+
+.donate .donate__content input::placeholder {
+    color: #88899291;
+}
+
+.btn__white-bg:hover {
+    box-shadow: 0 3px 15px #808292;
 }
