@@ -212,15 +212,12 @@ body {
 
     border-radius: 8px;
 
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column; */
+    
 }
 
 
 #card__1 {
-    background-color: #ccf3ee77;
+    background-color: #cceaf377;
 }
 
 #card__2 {
